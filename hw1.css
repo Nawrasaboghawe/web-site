@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    margin: 0px 17px;
+}
+
+header {
+    background-image: url(./flywheel.jpg);
+    background-size: cover;
+    text-align: center;
+}
+header h1 {
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+.nav ul li {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px 50px;
+    border-radius: 7px;
+}
+.nav ul .kk {
+    background-color: #fff;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.container {
+   display: flex;
+}
+
+aside {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(103, 145, 7);
+    height: 100vh;
+    
+}
+
+aside img {
+    width: 200px;
+    height: 100px;
+    margin: 20px 20px;
+    border: 3px solid #000;
+    
+}
+
+section {
+    margin-top: 25px;
+}
+
+section h2 {
+    margin: 0px 0px 15px 10px;
+  
+}
+
+section p {
+    color: #000;
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.table {
+    margin-left: 100px;
+}
+
+.table thead tr th {
+    color: #fff;
+    background-color:  rgb(103, 145, 7);
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 20px;
+}
+.table thead tr .ll {
+    width: 60%;
+    text-align: left;
+}
+.table table tbody tr td  {
+    font-size: 22px;
+    color: #777;
+    font-weight: bold;
+    background-color: #eee;
+    padding: 12px 20px;
+    text-align: center;
+    border: 1px solid #fff;
+   }
+   .table table tbody  tr .jj{
+    text-align: left;
+   }
